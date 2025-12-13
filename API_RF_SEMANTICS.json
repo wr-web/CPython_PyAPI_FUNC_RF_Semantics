@@ -964,7 +964,16 @@
     ],
     "PyErr_Restore": [
         {
-            "semantic": "no_ref_sem"
+            "semantic": "steal_ref",
+            "stealing param": 0
+        },
+        {
+            "semantic": "steal_ref",
+            "stealing param": 1
+        },
+        {
+            "semantic": "steal_ref",
+            "stealing param": 2
         }
     ],
     "PyErr_SetExcFromWindowsErr": [
